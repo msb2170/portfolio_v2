@@ -12,33 +12,117 @@
 <body>
     <div class="container">
         <div class="left-column">
-            <!-- Content for the fixed left column goes here -->
-            <h1>Matthew Byrd</h1>
-            <h4>Full Stack Developer</h4>
-            <p>Making tested, performant web apps</p>
+            <div class="left-column-text">
+                <h1>Matthew Byrd</h1>
+                <h4>Full Stack Developer</h4>
+                <p>Making tested, performant web apps. Let's have a conversation.</p>
+                <p>Email: msb2170@gmail.com</p>
+                <p>Click <a href="https://docs.google.com/document/d/1jZaxV4oo8L2H7QWGPWtdtZ6Nzl5SLkWJ7DJmZr8A684/edit?usp=sharing" target="_blank">here</a> for resume</p>
+            </div>
             <div class="content-links-container">
-                <ul class="content-link">- Projects</ul>
-                <ul class="content-link">- Skills</ul>
+                <ul class="content-link" id="content-link">-Projects</ul>
+                <ul class="content-link" id="content-link">-Skills</ul>
             </div>
             <div class="social-links-container">
-                <ul class="social-link">Github</ul>
-                <ul class="social-link">LinkedIn</ul>
-                <ul class="social-link">Twitter</ul>
+                <ul class="social-links-list">
+                <li class="social-link"><a href="http://www.github.com/msb2170"><img src="./assets/github.png" alt="github logo"></a></li>
+                <li class="social-link"><a href="http://www.linkedin.com/in/matthew-byrd-dev"><img src="./assets/linkedin.png" alt="LinkedIn logo"></a></li>
+                <li class="social-link"><a href="http://www.twitter.com/MattByrd01"><img src="./assets/twitter.png" alt="Twitter logo"></a></li>
+                </ul>
             </div>
         </div>
         <div class="right-column-container">
             <div class="right-column">
                     <!-- Content for the scrolling right column goes here -->
-                    <h2>Right Column</h2>
                     <div class="about">
-                        <p>I'm a self-taught developer with a background in libraries looking to launch a second career in web development. I'm highly self-motivated and eager to get started and help out a team.</p>
+                        <h2 class="about-title">About Me</h2>
+                        <p>I'm a full-stack developer with a background in libraries looking to launch a second career in web development. I'm highly self-motivated and eager to help out a team.
+                            Always making things, improving my skills, and looking for new ideas.
+                        </p>
                     </div>
-                    <div class="background">background</div>
-                    <div class="projects-container">Projects</div>
-                    <div class="skills-container">Skills</div>
+                    <div class="projects-container" id="-Projects">
+                        <ul class="projects-list">
+                                <h2 class="projects-title">Selected Projects</h2>
+                                <li class="project-card">
+                                    <h3 class="project-card-title">Matlassian's Mira</h3>
+                                    <a href="https://crm-app-one.vercel.app/">
+                                    <img src="./assets/MIRA screenshot.png" alt="screenshot of Mira project" class="project-img">
+                                    </a>
+                                    <ul class="tag-list">
+                                        <p>Built using:</p>
+                                        <span class="tech-tag">NextJS</span>
+                                        <span class="tech-tag">TypeScript</span>
+                                        <span class="tech-tag">Tailwind CSS</span>
+                                        <span class="tech-tag">NextAuth</span>
+                                        <span class="tech-tag">MongoDB</span>
+                                    </ul> 
+                                </li>
+                                <li class="project-card">
+                                    <h3 class="project-card-title">Blu-ray Library</h3>
+                                    <a href="http://bluraylibrary.com/">
+                                    <img src="./assets/bluraylibrary2.png" alt="screenshot of Blu-ray Library project" class="project-img">
+                                    </a>
+                                    <ul class="tag-list">
+                                        <p>Built using:</p>
+                                        <span class="tech-tag">React</span>
+                                        <span class="tech-tag">MongoDB</span>
+                                        <span class="tech-tag">Express</span>
+                                        <span class="tech-tag">Node</span>
+                                    </ul>
+                                </li>
+                                <li class="project-card">
+                                    <h3 class="project-card-title">MERN Griffin Trivia</h3>
+                                    <a href="http://www.merngriffintrivia.com">
+                                    <img src="./assets/merngriffintrivia.png" alt="Screenshot of MERN Griffin Trivia project" class="project-img">
+                                    </a>
+                                    <ul class="tag-list">
+                                        <p>Built using:</p>
+                                        <span class="tech-tag">React</span>
+                                        <span class="tech-tag">MongoDB</span>
+                                        <span class="tech-tag">Express</span>
+                                        <span class="tech-tag">Node</span>
+                                    </ul>
+                                </li>
+                            </ul>
+                        <p>See <a href="http://github.com/msb2170">Github</a> for more projects</p>
+                    </div>
+                    <div class="background">
+                        <h2>Background</h2>
+                    <img src="./assets/cropped_portrait.jpg" alt="a picture of me" class="portrait">
+                    <p>
+                        After many years working in an academic library, I am looking for a new challenge. 
+                        I started learning web development in 2021 and got addicted to the cycle of learning a new skill,
+                        building something with that skill, and learning even more by debugging and deploying what I built.
+                        That cycle of continual learning and application to keep up with this fast-moving field is what keeps me 
+                        coming back to development, even through its frustrations. I am looking to work in a fast-paced environment
+                        with people who share that mindset.
+                    </p>
+                </div>
+                    <div class="skills-container" id="-Skills">
+                        <h2>Skills</h2>
+                        <ul class="skills-list">
+                            <li>JavaScript</li>
+                            <li>ReactJS</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>MongoDB</li>
+                            <li>ExpressJS</li>
+                            <li>NodeJS</li>
+                            <li>TypeScript</li>
+                            <li>NextJS</li>
+                            <li>Git/Github</li>
+                            <li>REST APIs</li>
+                            <li>Linux</li>
+                            <li>SQL</li>
+                            <li>Python</li>
+                            <li>Unit Testing</li>
+                            <li>Jest</li>
+                            <li>React Testing Library</li>
+                        </ul>
+                    </div>
             </div>
         </div>
     </div>
-    <script src="script.js"></script>
+    <script src="./index.js"></script>
 </body>
 </html>
